@@ -43,7 +43,7 @@ Inner body container
 .main {
   max-width: 720px;
   margin: auto;
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
 body {
@@ -114,11 +114,10 @@ body {
   border-radius: 4px;
   padding: 8px;
   background-color: #fff;
-
-  position: absolute;
+  position: fixed;
   top: 72;
-  right: -72px;
-
+  right: 72px;
+  z-index: 10;
 }
 
 .sep {
@@ -138,4 +137,14 @@ body {
 
 .mat-tab-body-wrapper {
   padding-top: 24px;
+}
+
+
+.row {
+  padding: 0 15px;
+  display: grid;
+  grid-column-gap: 30px;
+  &.half-width {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
