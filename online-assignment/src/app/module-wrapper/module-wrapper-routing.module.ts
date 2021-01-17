@@ -25,6 +25,12 @@ const routes: Routes = [
     component: ModuleWrapperComponent,
     loadChildren: () =>
       import('../assignment-edit/assignment-edit.module').then(m => m.AssignmentEditModule)
+  },
+  {
+    path: 'login',
+    component: ModuleWrapperComponent,
+    loadChildren: () =>
+      import('../login/login.module').then(m => m.LoginModule)
   }
 ];
 

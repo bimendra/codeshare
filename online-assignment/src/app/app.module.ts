@@ -6,9 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AssignmentSearchComponent } from './assignment-search/assignment-search.component';
 import { AssignmentEditComponent } from './assignment-edit/assignment-edit.component';
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent    
   ],
   imports: [
     BrowserModule,
