@@ -159,3 +159,24 @@ body {
     color: rgba(black, 0.54);
   }
 }
+
+.assignment-search {
+  display: flex;
+  > * {
+    margin-right: 15px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.search-results {
+  .mat-table {
+    box-shadow: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+  }
+  table {
+    width: 100%;
+  }
+}
