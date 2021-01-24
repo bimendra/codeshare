@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 /*@import './theme.scss';*/
@@ -139,7 +138,6 @@ body {
   padding-top: 24px;
 }
 
-
 .row {
   padding: 0 15px;
   display: grid;
@@ -148,6 +146,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
 .header {
   padding: 24px;
   background-color: #fff;
@@ -202,4 +201,11 @@ body {
     text-align: center;
     margin: 0 0 24px;
   }
+}
+
+.mat-fab {
+  position: fixed !important;
+  bottom: 40px;
+  right: 240px;
+  z-index: 99;
 }
